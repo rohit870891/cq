@@ -31,7 +31,7 @@ if not os.path.isdir("thumb/"):
     os.mkdir("thumb/")
 
 
-tgp_client = TelegraphPoster(use_api=True, telegraph_api_url=TELEGRAPH_API)
+tgp_client = TelegraphPoster(use_api=True)
 
 
 def create_api_token():
